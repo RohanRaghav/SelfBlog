@@ -1,0 +1,446 @@
+import React from "react";
+
+const AboutSkills = () => {
+  return (
+    <div>
+      <div className="accordion" id="accordionExample" data-bs-theme="dark">
+        <div className="accordion-item">
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+              id="next.js"
+            >
+              Next.js
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            className="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body">
+              Next.js is a React framework for building full-stack web
+              applications. You use React Components to build user interfaces,
+              and Next.js for additional features and optimizations. Under the
+              hood, Next.js also abstracts and automatically configures tooling
+              needed for React, like bundling, compiling, and more. This allows
+              you to focus on building your application instead of spending time
+              with configuration.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+              id="React.js"
+            >
+              React.js
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body">
+              React is a JavaScript library for building user interfaces.React
+              has been designed from the start for gradual adoption, and you can
+              use as little or as much React as you need.
+            </div>
+          </div>
+        </div>
+        <div className="accordion" id="accordionExample">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingThree">
+            <button
+              className="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="true"
+              aria-controls="collapseThree"
+              id="Kotlin"
+            >
+              Kotlin
+              </button>
+          </h2>
+          <div
+            id="collapseThree"
+            className="accordion-collapse collapse show"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body">
+              Kotlin is a cross-platform, statically typed, general-purpose
+              programming language with type inference. It aims to interoperate
+              fully with Java and the JVM, and can also compile to JavaScript
+              and native code.
+            </div></div>
+            <div
+              id="collapseFour"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            ></div>
+            <div className="accordion" id="accordionExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                    id="MySql"
+                  >
+                    MySql
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    MySQL is an open-source relational database management
+                    system (RDBMS). It's based on Structured Query Language
+                    (SQL). MySQL is used for a variety of applications,
+                    including: Data warehousing, E-commerce, Logging
+                    applications, Web databases.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="collapseFive"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            ></div>
+            <div className="accordion" id="accordionExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                    id="Javascript"
+                  >
+                    Javascript
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    JavaScript is the world's most popular programming language.
+                    JavaScript is the programming language of the Web.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="collapseSix"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            ></div>
+            <div className="accordion" id="accordionExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="true"
+                    aria-controls="collapseSix"
+                    id="PHP"
+                  >
+                    PHP
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    PHP stands for Hypertext Preprocessor. It's a programming
+                    language that's used to build websites and web applications.
+                    PHP is a server-side scripting language that's encoded with
+                    HTML. It was one of the first server-side languages that
+                    could be embedded into HTML.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="collapseSeven"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            ></div>
+            <div className="accordion" id="accordionExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSeven"
+                    aria-expanded="true"
+                    aria-controls="collapseSeven"
+                    id="CSS"
+                  >
+                    CSS
+                  </button>
+                </h2>
+                <div
+                  id="collapseSeven"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    CSS stands for Cascading Style Sheets. It's a computer
+                    language used to lay out and structure web pages. CSS is
+                    used to describe how elements should be rendered on screen,
+                    on paper, in speech, or on other media. CSS is designed to
+                    enable the separation of content and presentation,
+                    including: Layout, Colors, Fonts
+                  </div></div>
+                  <div
+                    id="collapseEight"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  ></div>
+                  <div className="accordion" id="accordionExample">
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseEight"
+                          aria-expanded="true"
+                          aria-controls="collapseEight"
+                          id="Graphic Design"
+                        >
+                          Graphic Design
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseEight"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          Graphic design is a craft where professionals create
+                          visual content to communicate messages. By applying
+                          visual hierarchy and page layout techniques, designers
+                          use typography and pictures to meet users' specific
+                          needs and focus on the logic of displaying elements in
+                          interactive designs, to optimize the user experience.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="collapseNine"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  ></div>
+                  <div className="accordion" id="accordionExample">
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseNine"
+                          aria-expanded="true"
+                          aria-controls="collapseNine"
+                          id="C"
+                        >
+                          C
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseNine"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          C is a general-purpose programming language created by
+                          Dennis Ritchie at the Bell Laboratories in 1972. It is
+                          a very popular language, despite being old. The main
+                          reason for its popularity is because it is a
+                          fundamental language in the field of computer science
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="collapseTen"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  ></div>
+                  <div className="accordion" id="accordionExample">
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTen"
+                          aria-expanded="true"
+                          aria-controls="collapseTen"
+                          id="C++"
+                        >
+                          C++
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseTen"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          C++ is one of the world's most popular programming
+                          languages. C++ can be found in today's operating
+                          systems, Graphical User Interfaces, and embedded
+                          systems. C++ is an object-oriented programming
+                          language which gives a clear structure to programs and
+                          allows code to be reused, lowering development costs.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="collapseEleven"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  ></div>
+                  <div className="accordion" id="accordionExample">
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseEleven"
+                          aria-expanded="true"
+                          aria-controls="collapseEleven"
+                          id="Scratch"
+                        >
+                          Scratch
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseEleven"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          Scratch is a visual programming language that allows
+                          students to create interactive stories, games, and
+                          animations. It's designed for children as an
+                          educational tool. Scratch is block-based, and uses a
+                          simple visual interface. Students learn to think
+                          creatively, reason systematically, and work
+                          collaboratively while designing Scratch projects.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="collapseTwelve"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  ></div>
+                  <div className="accordion" id="accordionExample">
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwelve"
+                          aria-expanded="true"
+                          aria-controls="collapseTwelve"
+                          id="Tally ERP"
+                        >
+                          Tally ERP
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseTwelve"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          Tally.ERP 9 is a business management software that
+                          integrates various business functions into a single
+                          system. It's used by millions of businesses worldwide,
+                          including small and medium enterprises.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="collapseThirteen"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  ></div>
+                  <div className="accordion" id="accordionExample">
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThirteen"
+                          aria-expanded="true"
+                          aria-controls="collapseThirteen"
+                          id="Office"
+                        >
+                          Office automation
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseThirteen"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">
+                          Office automation refers to the varied computer
+                          machinery and software used to digitally create,
+                          collect, store, manipulate, and relay office
+                          information needed for accomplishing basic tasks.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  );
+};
+
+export default AboutSkills;
